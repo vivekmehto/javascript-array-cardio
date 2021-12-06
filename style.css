@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(53, 49, 49);
 }
 
 section {
+  color: rgba(255, 255, 255, 0.808);
   padding: 1.2rem;
-  margin: 1.5rem;
+  margin: auto;
   max-width: 50%;
   line-height: 1.5;
 }

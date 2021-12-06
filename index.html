@@ -10,8 +10,18 @@
 </head>
 
 <body>
+    <section class="filter">
+        <h2>Array.prototype.filter()</h2>
+        <p>The filter() method creates a new array with all elements that pass the test implemented by the provided
+            function.</p>
+        <code>const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present']; <br>
 
+            const result = words.filter(word => word.length > 6); <br>
 
+            console.log(result); <br>
+            expected output: Array ["exuberant", "destruction", "present"]
+        </code>
+    </section>
 
 
     <script src="/app.js"></script>

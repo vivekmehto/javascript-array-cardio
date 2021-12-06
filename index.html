@@ -19,10 +19,23 @@
             const result = words.filter(word => word.length > 6); <br>
 
             console.log(result); <br>
-            expected output: Array ["exuberant", "destruction", "present"]
+            // expected output: Array ["exuberant", "destruction", "present"]
         </code>
     </section>
+    <section>
+        <h2>Array.prototype.map()</h2>
+        <p>The map() method creates a new array populated with the results of calling a provided function on every
+            element in the calling array.</p>
 
+        <code>const array1 = [1, 4, 9, 16]; <br>
+
+
+            // pass a function to map <br>
+            const map1 = array1.map(x => x * 2); <br>
+
+            console.log(map1); <br>
+            // expected output: Array [2, 8, 18, 32]</code>
+    </section>
 
     <script src="/app.js"></script>
 </body>

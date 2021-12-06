@@ -37,6 +37,28 @@
             // expected output: Array [2, 8, 18, 32]</code>
     </section>
 
+    <section>
+        <h2>Array.prototype.sort()</h2>
+        <p>The sort() method sorts the elements of an array in place and returns the sorted array. The default sort
+            order is ascending, built upon converting the elements into strings, then comparing their sequences of
+            UTF-16 code units values.
+
+            The time and space complexity of the sort cannot be guaranteed as it depends on the implementation.</p>
+
+        <code>
+            const months = ['March', 'Jan', 'Feb', 'Dec']; <br>
+            months.sort(); <br>
+            console.log(months); <br>
+            // expected output: Array ["Dec", "Feb", "Jan", "March"] br
+
+            const array1 = [1, 30, 4, 21, 100000]; <br>
+            array1.sort(); <br>
+            console.log(array1); <br>
+            // expected output: Array [1, 100000, 21, 30, 4]
+
+        </code>
+    </section>
+
     <script src="/app.js"></script>
 </body>
 

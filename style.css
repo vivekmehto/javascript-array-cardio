@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+section {
+  padding: 1.2rem;
+  margin: 1.5rem;
+  max-width: 50%;
+  line-height: 1.5;
+}
